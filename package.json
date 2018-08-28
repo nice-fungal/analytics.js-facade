@@ -1,6 +1,6 @@
 {
-  "name": "@segment/facade",
-  "version": "3.3.7",
+  "name": "@head.js/analytics.js-facade",
+  "version": "3.3.7-4",
   "description": "Providing common fields for analytics integrations",
   "keywords": [],
   "main": "dist/index.js",
@@ -11,16 +11,7 @@
     "test": "make test",
     "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/segmentio/facade.git"
-  },
-  "author": "Segment <friends@segment.com>",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/segmentio/facade/issues"
-  },
-  "homepage": "https://github.com/segmentio/facade#readme",
+  "repository": "https://github.com/nice-fungal/analytics.js-facade",
   "dependencies": {
     "@head.js/analytics.js-isodate-traverse": "1.1.0-1",
     "@head.js/analytics.js-new-date": "1.0.2-1",
