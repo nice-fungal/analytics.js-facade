@@ -10,3 +10,6 @@ lib
 Makefile
 tsconfig.json
 tsconfig.tsbuildinfo
+
+docs/
+Makefile

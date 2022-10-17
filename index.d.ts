@@ -1,4 +1,4 @@
-declare module '@segment/facade' {
+declare module '@head.js/analytics.js-facade' {
   interface Options {
     clone?: boolean;
     traverse?: boolean;
@@ -36,10 +36,10 @@ declare module '@segment/facade' {
 
     /**
      * Gets the raw, unmodified object this facade wraps around.
-     * 
-     * Unlike the `json` method, which does make some subtle modifications 
+     *
+     * Unlike the `json` method, which does make some subtle modifications
      * to datetime values and the `type` property, this method returns the input
-     * object as-is. It is not guaranteed to be the same instance, due to constraints of 
+     * object as-is. It is not guaranteed to be the same instance, due to constraints of
      * how the `clone: false` option behaves.
      */
     rawEvent(): { [key: string]: any }
